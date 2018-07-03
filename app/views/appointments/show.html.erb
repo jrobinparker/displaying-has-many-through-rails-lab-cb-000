@@ -11,8 +11,8 @@
   <tbody>
     <tr>
         <td><%= @appointment.appointment_datetime.strftime("%A, %B %d, %Y at %T") %></td>
-        <td><%= @appointment.patient.name, appointment_path(@appointment) %></td>
-        <td><%= link_to @appointment.doctor.name, appointments_path(@appointment) %></td>
+        <td><%= @appointment.patient.name　%></td>
+        <td><%= @appointment.doctor.name %></td>
     </tr>
   </tbody>
 </table>
